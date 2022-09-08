@@ -1,7 +1,20 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
+In this project it is easy to understand how to use a webcam with react-webcam and you can take screenshot from that video by clicking the button and if you need to take screenshot in a specific time interval you can use:
+
+       setTimeout(function(){
+        ............
+        ............
+        ............
+       }, 1000);
+       
+If you want to access the screenshot from library, the path is:
+
+const image = webcamRef.current.getScreenshot();
+              
 ## Available Scripts
 
 In the project directory, you can run:
